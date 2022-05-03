@@ -1,5 +1,4 @@
-package payload
-
+package data
 
 type Payload struct {
 	Message

@@ -1,6 +1,7 @@
 package main
 
 import (
+	data "cli-chat/pkg/messages"
 	"fmt"
 
 
@@ -108,9 +109,3 @@ func (ui *UI) receiveMsg() {
 		})
 	}
 }
-© 2022 GitHub, Inc.
-Terms
-Privacy
-Security
-Status
-Docs

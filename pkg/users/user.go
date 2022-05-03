@@ -1,4 +1,4 @@
-package users
+package data
 
 import "golang.org/x/net/websocket"
 

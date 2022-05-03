@@ -1,4 +1,4 @@
-package events
+package data
 
 
 type EventType int8
@@ -10,7 +10,7 @@ const (
 
 type Event struct {
 	Type EventType
-	User *User
+	User *users.User
 }
 
 func NewEvent(_type EventType, user *User) *Event {
